@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  height: 100vw;
+  width: 100vw;
+}
+.App-body{
+  margin: 0;
+  padding: 0;
+}
+.Sidebar{
+  height: 100%;
+  width: 250px;
+  color:purple;
+}
+.SidebarList{
+  padding: 7;
+  width: 7;
+  height: 7;
+}
