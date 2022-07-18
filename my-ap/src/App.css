@@ -1,19 +1,44 @@
 .App {
   text-align: center;
-  height: 100vw;
-  width: 100vw;
-}
-.App-body{
+  height: 40vw;
+  width: 200vh;
   margin: 0;
   padding: 0;
+  border: 1px solid gray;
+  border-radius: 20px;
+  overflow-x: hidden;
+  overflow-y:hidden;
+  background-color: white;
 }
+
 .Sidebar{
   height: 100%;
-  width: 250px;
-  color:purple;
+  width: 240px;
+  background-color: rgb(247, 247, 247);
+  text-emphasis-color: black;
+  text-align: left;
+  border: 1px solid gray;
+  
 }
-.SidebarList{
-  padding: 7;
-  width: 7;
-  height: 7;
+
+.Icon{
+  color: black;
+  display: inline-block;
+ 
+  padding: 10px;
+  margin: 0px;
+  text-indent:0%;
 }
+.Title{
+  color: black;
+  display: inline-block;
+  align-self: left;
+  
+  
+}
+.Hover:hover{
+  background-color:honeydew;
+  text-decoration-style: solid;
+}
+
+

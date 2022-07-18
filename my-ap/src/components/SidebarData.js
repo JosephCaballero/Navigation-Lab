@@ -1,40 +1,63 @@
-import React from 'react';
 import HomeIcon from '@mui/icons-material/Home';
-import MailIcon from '@mui/icons-material/Mail';
-import AnalyticsIcon from '@mui/icons-material/Analytics';
-import DashboardIcon from '@mui/icons-material/Dashboard';
+import React from 'react';
+import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
+import SettingsIcon from '@mui/icons-material/Settings';
+import SearchIcon from '@mui/icons-material/Search';
+import NotificationsIcon from '@mui/icons-material/Notifications';
 import PeopleIcon from '@mui/icons-material/People';
-import CropOriginalIcon from '@mui/icons-material/CropOriginal';
+import DescriptionIcon from '@mui/icons-material/Description';
 
-export const SidebarData =[
+
+export const ulStyle={
+    listStyleType: 'none'
+ }
+export const SidebarData=[
     {
-        title: "Home",
+        title: "Home", 
         icon: <HomeIcon/>,
         link: "/home"
     },
     {
-        title: "Mail",
-        icon: <MailIcon/>,
-        link: "/mail"
+        title: "IDFI", 
+        icon: <InsertDriveFileIcon/>,
+        link: "/IDFI"
     },
     {
-        title: "Analytics",
-        icon: <AnalyticsIcon/>,
-        link: "/Analytics"
+        title: "Settings", 
+        icon: <SettingsIcon/>,
+        link: "/settings"
     },
     {
-        title: "Dashboard",
-        icon: <DashboardIcon/>,
-        link: "/dashboard"
+        title: "Search", 
+        icon: <SearchIcon/>,
+        link: "/search"
     },
     {
-        title: "People",
+        title: "Notifications", 
+        icon: <NotificationsIcon/>,
+        link: "/notifications"
+    },
+    {
+        title: "People", 
         icon: <PeopleIcon/>,
         link: "/people"
     },
     {
-        title: "CropOriginal",
-        icon: <CropOriginalIcon/>,
-        link: "/CropOriginal"
+        title: "Description", 
+        icon: <DescriptionIcon/>,
+        link: "/description"
     },
+    {
+        title: "IDFI", 
+        icon: <InsertDriveFileIcon/>,
+        link: "/IDFI"
+    },
+    {
+        title: "IDFI", 
+        icon: <InsertDriveFileIcon/>,
+        link: "/IDFI"
+    },
+    
 ]
+
+
